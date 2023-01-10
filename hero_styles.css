@@ -1,0 +1,99 @@
+.home {
+    background: wheat;
+    /* background-image: url(dog.png);
+    padding: 200px; */
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: left;
+    padding: 100px;
+}
+
+.home__heading {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: -200px;
+    color: black;
+}
+
+.home__description {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: -150px;
+    color: black;
+}
+
+.home__info {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+/* .home__heading span {
+    background: #9CECFB;
+    background: -webkit-linear-gradient(to right,
+            #9CECFB, #65C7F7,
+            #0052D4);
+    background: linear-gradient(to right,
+            #9CECFB, #65C7F7,
+            #0052D4);
+}
+
+.home__description {
+    background: #9CECFB;
+    background: -webkit-linear-gradient(to right,
+            #9CECFB, #65C7F7,
+            #0052D4);
+    background: linear-gradient(to right,
+            #9CECFB, #65C7F7,
+            #0052D4);
+} */
+
+.experience {
+    background: wheat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact {
+    background: wheat;
+    height: 800px;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#DivForHoverItem {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#hiddenEmail {
+    display: none;
+}
+
+#DivForHoverItem:hover #hiddenEmail {
+    display: block;
+}
