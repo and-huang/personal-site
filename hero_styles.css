@@ -37,26 +37,6 @@
     color: black;
 }
 
-/* .home__heading span {
-    background: #9CECFB;
-    background: -webkit-linear-gradient(to right,
-            #9CECFB, #65C7F7,
-            #0052D4);
-    background: linear-gradient(to right,
-            #9CECFB, #65C7F7,
-            #0052D4);
-}
-
-.home__description {
-    background: #9CECFB;
-    background: -webkit-linear-gradient(to right,
-            #9CECFB, #65C7F7,
-            #0052D4);
-    background: linear-gradient(to right,
-            #9CECFB, #65C7F7,
-            #0052D4);
-} */
-
 .experience {
     background: wheat;
     height: 800px;
